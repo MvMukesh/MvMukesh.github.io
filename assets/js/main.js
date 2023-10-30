@@ -10,6 +10,7 @@
 		$head = $('head'),
 		$body = $('body');
 
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
@@ -21,6 +22,7 @@
 			'xlarge-to-max':    '(min-width: 1681px)',
 			'small-to-xlarge':  '(min-width: 481px) and (max-width: 1680px)'
 		});
+
 
 	// Stops animations/transitions until the page has ...
 
@@ -260,3 +262,10 @@
 			});
 
 })(jQuery);
+
+<!-- New Code for Accord -->
+
+	// Add a click event to all accordion item headers.
+	$('.accordion-item-header').click(function() {
+		// Toggle the visibility of the accordion item body.
+		$(this).next('.accordion-item-body').toggle();});

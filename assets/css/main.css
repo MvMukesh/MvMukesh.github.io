@@ -72,6 +72,30 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+/* New */
+.accordion {
+	background-color: #eee;
+	padding: 0px;
+	border: 1px solid #ccc;
+  }
+  
+  .accordion-item {
+	background-color: #ffffff;
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+  }
+  
+  .accordion-item-header {
+	cursor: pointer;
+  }
+  
+  .accordion-item-body {
+	display: none;
+  }
+
+
 /* Basic */
 
 	@-ms-viewport {
