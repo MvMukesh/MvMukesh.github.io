@@ -263,7 +263,7 @@
 
 })(jQuery);
 
-<!-- New Code for Accord -->
+// New Code for Accord
 
 	// Add a click event to all accordion item headers.
 	$('.accordion-item-header').click(function() {
